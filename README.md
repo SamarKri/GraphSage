@@ -52,8 +52,8 @@ python main.py --model graphsage --dataset citeseer
 
 ### 💡 Future Work
 
-Add unit tests for dataloader, model, train, evaluation, and utils
-Test implementation on other datasets like Cora, PubMed, or Reddit
-Add a directory for dataset storage/reference (Citeseer, Cora, PubMed, Reddit, PPI, OpenAlex)
-Optimize hyperparameters using Optuna
-Define additional performance metrics such as AUC-ROC for multi-label problems
+- Add unit tests for dataloader, model, train, evaluation, and utils
+- Test implementation on other datasets like Cora, PubMed, or Reddit
+- Add a directory for dataset storage/reference (Citeseer, Cora, PubMed, Reddit, PPI, OpenAlex)
+- Optimize hyperparameters using Optuna
+- Define additional performance metrics such as AUC-ROC for multi-label problems
