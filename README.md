@@ -37,20 +37,20 @@ GraphSage/
 ```bash
 git clone https://github.com/SamarKri/GraphSage.git
 cd GraphSage
-
+```
 ### Create a virtual environment (Windows)
 ```bash
 python -m venv graphvenv
 graphvenv\Scripts\activate
-
+```
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ### Run training with GraphSAGE (example on Citeseer)
 ```bash
 python main.py --model graphsage --dataset citeseer
-
+```
 ### 💡 Future Work
 
 - Add unit tests for dataloader, model, train, evaluation, and utils
