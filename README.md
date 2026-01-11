@@ -10,7 +10,7 @@ Implementation of GraphSAGE based on the paper "Inductive Representation Learnin
 ## 📂 Project Structure
 
 GraphSage/
-
+```plaintext
 ├── Figures/               # All generated figures
 ├── graphvenv/             # Virtual environment to isolate dependencies
 ├── config.py              # Parameters and hyperparameters (dataset, learning rate, number of layers, etc.)
@@ -23,31 +23,32 @@ GraphSage/
 ├── .gitignore             # Files and folders to ignore in Git (e.g., __pycache__, checkpoints, logs, etc.)
 ├── README.md              # Project documentation (description, installation, usage, etc.)
 └── main.py                # Entry point for training and evaluation
+```
 
 ## 🛠️ Installation
 ### 📌 Prerequisites
 
-Operating System: Windows (tested)
-Hardware: A GPU is recommended for full training; compatible with platforms like SageMaker
-Use a CUDA-compatible GPU for faster training
-Python 3.12.6+
+- Operating System: Windows (tested)
+- Hardware: A GPU is recommended for full training; compatible with platforms like SageMaker
+- Use a CUDA-compatible GPU for faster training
+- Python 3.12.6+
 
 ### Clone the repository
-
+```bash
 git clone https://github.com/SamarKri/GraphSage.git
 cd GraphSage
 
 ### Create a virtual environment (Windows)
-
+```bash
 python -m venv graphvenv
 graphvenv\Scripts\activate
 
 ### Install dependencies
-
+```bash
 pip install -r requirements.txt
 
 ### Run training with GraphSAGE (example on Citeseer)
-
+```bash
 python main.py --model graphsage --dataset citeseer
 
 ### 💡 Future Work
